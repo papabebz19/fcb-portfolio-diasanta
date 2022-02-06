@@ -1,0 +1,58 @@
+/*
+crtl+shirt++/ -CSS comment
+CSS - Cascading Stylesheet- it is used to style/design our web pages.
+*/
+
+*{
+	font-family: "Roboto", sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;/*to smooth the transition for selection/scrol*/
+}
+
+
+h1,h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img{
+	height: 250px;
+	width: 250px;	
+	}
+
+#landing{
+	height: 80vh; /*vh or view port height*/
+	display: flex; /*center the content of landing horizontally and vertically*/
+	flex-direction: column;
+	align-items: center;/*align or center the images*/
+	justify-content: center;/*center the images vert and horiz*/
+	}
+
+#gallery{
+	height: 75vh;
+	/*center the content of gallery horiz and vert*/
+	display:  flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+	}
+
+ul{
+	/*all the ul will be disable or the bullets*/
+	list-style: none;
+	padding: 0;
+}
+
+h2{
+	color: #007bff;
+}
+
+.tools{
+	height: 200px;
+	border: 5px solid #f2f2f2;
+	padding: 25px;/*space inside the border or element*/
+	margin: 20px;/*space outside the border or element*/
+	width: 75%; /*width same size*/
+}
